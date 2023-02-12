@@ -1,0 +1,112 @@
+Starting linting the current package at /home/gopath/src/client-go-exercise/clientsetdemo
+Starting linting the current package at /home/gopath/src/client-go-exercise/clientsetdemo
+/home/gopath/src/client-go-exercise/clientsetdemo>Finished running tool: /home/gopath/bin/staticcheck
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/clientsetdemo
+/home/gopath/src/client-go-exercise/clientsetdemo>Finished running tool: /home/gopath/bin/staticcheck
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/clientsetdemo
+/home/gopath/src/client-go-exercise/clientsetdemo>Finished running tool: /home/gopath/bin/staticcheck
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/clientsetdemo
+/home/gopath/src/client-go-exercise/clientsetdemo>Finished running tool: /home/gopath/bin/staticcheck
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/clientsetdemo
+/home/gopath/src/client-go-exercise/clientsetdemo>Finished running tool: /home/gopath/bin/staticcheck
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/clientsetdemo
+/home/gopath/src/client-go-exercise/clientsetdemo>Finished running tool: /home/gopath/bin/staticcheck
+
+/home/gopath/src/client-go-exercise/clientsetdemo>Finished running tool: /home/gopath/bin/staticcheck
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:73:27 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:76:31 clientset.CoreV1().Service undefined (type "k8s.io/client-go/kubernetes/typed/core/v1".CoreV1Interface has no field or method Service) (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:93:2 namespaceClient declared but not used (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:93:38 clientset.CoreV1.Namespace undefined (type func() "k8s.io/client-go/kubernetes/typed/core/v1".CoreV1Interface has no field or method Namespace) (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:95:16 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:96:15 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:101:17 undeclared name: namespaceClientset (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:101:70 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:116:14 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:117:15 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:120:9 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:121:13 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:130:10 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:134:63 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:146:22 undeclared name: clientset (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:151:17 undeclared name: appsv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:152:15 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:155:9 undeclared name: appsv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:157:15 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:163:14 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:164:17 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:169:11 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:170:20 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:175:17 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:178:25 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:189:69 undeclared name: metav1 (compile)
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/clientsetdemo
+/home/gopath/src/client-go-exercise/clientsetdemo>Finished running tool: /home/gopath/bin/staticcheck
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:73:27 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:76:31 clientset.CoreV1().Service undefined (type "k8s.io/client-go/kubernetes/typed/core/v1".CoreV1Interface has no field or method Service) (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:93:2 namespaceClient declared but not used (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:93:38 clientset.CoreV1.Namespace undefined (type func() "k8s.io/client-go/kubernetes/typed/core/v1".CoreV1Interface has no field or method Namespace) (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:95:16 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:96:15 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:101:17 undeclared name: namespaceClientset (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:101:70 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:116:14 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:117:15 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:120:9 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:121:13 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:130:10 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:134:63 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:146:22 undeclared name: clientset (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:151:17 undeclared name: appsv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:152:15 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:155:9 undeclared name: appsv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:157:15 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:163:14 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:164:17 undeclared name: metav1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:169:11 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:170:20 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:175:17 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:178:25 undeclared name: apiv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:189:69 undeclared name: metav1 (compile)
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/clientsetdemo
+/home/gopath/src/client-go-exercise/clientsetdemo>Finished running tool: /home/gopath/bin/staticcheck
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:75:34 DeleteOperations not declared by package v1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:95:2 namespaceClient declared but not used (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:95:38 clientset.CoreV1.Namespaces undefined (type func() "k8s.io/client-go/kubernetes/typed/core/v1".CoreV1Interface has no field or method Namespaces) (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:103:17 undeclared name: namespaceClientset (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:103:77 CreateOpearations not declared by package v1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:148:22 undeclared name: clientset (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:153:17 undeclared name: appsv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:157:9 undeclared name: appsv1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:167:6 unknown field Lables in struct literal (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:191:76 CreateOption not declared by package v1 (compile)
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/clientsetdemo
+/home/gopath/src/client-go-exercise/clientsetdemo>Finished running tool: /home/gopath/bin/staticcheck
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:96:2 namespaceClient declared but not used (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:96:38 clientset.CoreV1.Namespaces undefined (type func() "k8s.io/client-go/kubernetes/typed/core/v1".CoreV1Interface has no field or method Namespaces) (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:104:17 undeclared name: namespaceClientset (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:104:77 CreateOpearations not declared by package v1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:149:22 undeclared name: clientset (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:168:6 unknown field Lables in struct literal (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:192:76 CreateOption not declared by package v1 (compile)
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/clientsetdemo
+/home/gopath/src/client-go-exercise/clientsetdemo>Finished running tool: /home/gopath/bin/staticcheck
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:96:2 namespaceClient declared but not used (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:104:17 undeclared name: namespaceClientset (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:104:77 CreateOpearations not declared by package v1 (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:149:22 undeclared name: clientset (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:168:6 unknown field Lables in struct literal (compile)
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:192:76 CreateOption not declared by package v1 (compile)
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/clientsetdemo
+/home/gopath/src/client-go-exercise/clientsetdemo>Finished running tool: /home/gopath/bin/staticcheck
+/home/gopath/src/client-go-exercise/clientsetdemo/main.go:60:5 don't use Yoda conditions (ST1017)
+

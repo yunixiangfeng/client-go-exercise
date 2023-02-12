@@ -1,0 +1,28 @@
+2023-02-12 19:08:14.255 [error] Client network socket disconnected before secure TLS connection was established: Error: Client network socket disconnected before secure TLS connection was established
+	at connResetException (node:internal/errors:691:14)
+	at TLSSocket.onConnectEnd (node:_tls_wrap:1585:19)
+	at TLSSocket.emit (node:events:538:35)
+	at endReadableNT (node:internal/streams/readable:1345:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-02-12 19:08:16.587 [error] RequestService#request (browser) - error https://vscodeexperiments.azureedge.net/experiments/vscode-experiments.json {}
+2023-02-12 19:08:16.598 [error] net::ERR_CONNECTION_CLOSED: Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:105:7047)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-02-12 19:08:31.241 [error] Client network socket disconnected before secure TLS connection was established: Error: Client network socket disconnected before secure TLS connection was established
+	at connResetException (node:internal/errors:691:14)
+	at TLSSocket.onConnectEnd (node:_tls_wrap:1585:19)
+	at TLSSocket.emit (node:events:538:35)
+	at endReadableNT (node:internal/streams/readable:1345:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-02-12 19:08:32.602 [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {}
+2023-02-12 19:08:38.004 [error] RequestService#request (browser) - error https://vscodeexperiments.azureedge.net/experiments/vscode-experiments.json {}
+2023-02-12 19:08:38.236 [error] net::ERR_CONNECTION_CLOSED: Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:105:7047)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-02-12 19:09:22.041 [error] Client network socket disconnected before secure TLS connection was established: Error: Client network socket disconnected before secure TLS connection was established
+	at connResetException (node:internal/errors:691:14)
+	at TLSSocket.onConnectEnd (node:_tls_wrap:1585:19)
+	at TLSSocket.emit (node:events:538:35)
+	at endReadableNT (node:internal/streams/readable:1345:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-02-12 19:19:08.470 [info] [perf] Render performance baseline is 55ms
