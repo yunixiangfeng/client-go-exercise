@@ -1,0 +1,9 @@
+2023-02-13 18:05:41.972 [info] [perf] Render performance baseline is 50ms
+2023-02-13 18:05:54.349 [info] [perf] Render performance baseline is 67ms
+2023-02-13 18:06:15.767 [warning] {"name":"Error","message":"11:131: missing ',' before newline in argument list (and 10 more errors)"}
+2023-02-13 18:07:27.866 [warning] {"name":"Error","message":"11:131: missing ',' before newline in argument list (and 10 more errors)"}
+2023-02-13 18:07:52.773 [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.37.1/dist/goMain.js:4470:40)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.37.1/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.37.1/dist/goMain.js:4279:11)
+	at process.processImmediate (node:internal/timers:466:21)

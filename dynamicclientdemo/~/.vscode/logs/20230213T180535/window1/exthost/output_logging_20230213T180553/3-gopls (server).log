@@ -1,0 +1,367 @@
+[Info  - 6:05:55 PM] 2023/02/13 18:05:55 go env for /home/gopath/src/client-go-exercise/dynamicclientdemo
+(root /home/gopath/src/client-go-exercise/dynamicclientdemo)
+(go version go version go1.18.5 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOMOD=/home/gopath/src/client-go-exercise/dynamicclientdemo/go.mod
+GONOSUMDB=
+GO111MODULE=on
+GOPATH=/home/gopath
+GOPROXY=https://goproxy.io,direct
+GOINSECURE=
+GONOPROXY=
+GOWORK=
+GOFLAGS=
+GOPRIVATE=
+GOSUMDB=sum.golang.org
+GOROOT=/usr/local/go
+GOCACHE=/root/.cache/go-build
+GOMODCACHE=/home/gopath/pkg/mod
+
+
+[Info  - 6:05:56 PM] 2023/02/13 18:05:56 go/packages.Load #1
+	snapshot=0
+	directory=file:///home/gopath/src/client-go-exercise/dynamicclientdemo
+	query=[builtin dynamicclientdemo/...]
+	packages=2
+
+[Info  - 6:05:56 PM] 2023/02/13 18:05:56 go/packages.Load #1: updating metadata for 1 packages
+
+[Error - 6:05:58 PM] 2023/02/13 18:05:58 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 35 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:06:02 PM] 2023/02/13 18:06:02 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 35 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:06:03 PM] 2023/02/13 18:06:03 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 35 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:06:15 PM] 2023/02/13 18:06:15 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 35 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:06:15 PM] Request textDocument/formatting failed.
+  Message: 11:131: missing ',' before newline in argument list (and 10 more errors)
+  Code: 0 
+[Error - 6:06:54 PM] 2023/02/13 18:06:54 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 35 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:07:08 PM] 2023/02/13 18:07:08 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 35 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:07:09 PM] 2023/02/13 18:07:09 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 35 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:07:14 PM] 2023/02/13 18:07:14 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 35 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:07:18 PM] 2023/02/13 18:07:18 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 35 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:07:19 PM] 2023/02/13 18:07:19 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 35 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:07:20 PM] 2023/02/13 18:07:20 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 35 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:07:20 PM] 2023/02/13 18:07:20 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 38 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:07:21 PM] 2023/02/13 18:07:21 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 38 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:07:27 PM] 2023/02/13 18:07:27 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 38 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:07:27 PM] Request textDocument/formatting failed.
+  Message: 11:131: missing ',' before newline in argument list (and 10 more errors)
+  Code: 0 
+[Error - 6:07:33 PM] 2023/02/13 18:07:33 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 38 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:07:35 PM] 2023/02/13 18:07:35 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:27: expected ';', found "kubeconfig" (and 2 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:07:36 PM] 2023/02/13 18:07:36 no signature help: no signature help within a string literal
+	position=10:27
+
+[Error - 6:07:36 PM] 2023/02/13 18:07:36 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 38 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:07:42 PM] 2023/02/13 18:07:42 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131: missing ',' before newline in argument list (and 38 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:07:52 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 6:07:54 PM] 2023/02/13 18:07:54 go/packages.Load #4
+	snapshot=12
+	directory=file:///home/gopath/src/client-go-exercise/dynamicclientdemo
+	query=[file=/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go]
+	packages=1
+
+[Info  - 6:07:54 PM] 2023/02/13 18:07:54 go/packages.Load #4
+	snapshot=12
+	directory=file:///home/gopath/src/client-go-exercise/dynamicclientdemo
+	package="dynamicclientdemo"
+	files=[/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go]
+
+[Info  - 6:07:54 PM] 2023/02/13 18:07:54 go/packages.Load #4: updating metadata for 44 packages
+
+[Info  - 6:07:54 PM] 2023/02/13 18:07:54 go/packages.Load #5: updating metadata for 0 packages
+
+[Info  - 6:07:54 PM] 2023/02/13 18:07:54 go/packages.Load #5
+	snapshot=12
+	directory=file:///home/gopath/src/client-go-exercise/dynamicclientdemo
+	query=[file=/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go]
+	packages=1
+
+[Info  - 6:07:54 PM] 2023/02/13 18:07:54 go/packages.Load #5
+	snapshot=12
+	directory=file:///home/gopath/src/client-go-exercise/dynamicclientdemo
+	package="dynamicclientdemo"
+	files=[/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go]
+
+[Info  - 6:07:54 PM] 2023/02/13 18:07:54 go/packages.Load #6
+	snapshot=13
+	directory=file:///home/gopath/src/client-go-exercise/dynamicclientdemo
+	query=[file=/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go]
+	packages=1
+
+[Info  - 6:07:54 PM] 2023/02/13 18:07:54 go/packages.Load #6
+	snapshot=13
+	directory=file:///home/gopath/src/client-go-exercise/dynamicclientdemo
+	package="dynamicclientdemo"
+	files=[/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go]
+
+[Info  - 6:07:54 PM] 2023/02/13 18:07:54 go/packages.Load #6: updating metadata for 1 packages
+
+[Info  - 6:07:54 PM] 2023/02/13 18:07:54 go/packages.Load #7
+	snapshot=13
+	directory=file:///home/gopath/src/client-go-exercise/dynamicclientdemo
+	query=[file=/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go]
+	packages=1
+
+[Info  - 6:07:54 PM] 2023/02/13 18:07:54 go/packages.Load #7
+	snapshot=13
+	directory=file:///home/gopath/src/client-go-exercise/dynamicclientdemo
+	package="dynamicclientdemo"
+	files=[/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go]
+
+[Info  - 6:07:54 PM] 2023/02/13 18:07:54 go/packages.Load #7: updating metadata for 0 packages
+
+[Error - 6:07:56 PM] 2023/02/13 18:07:56 tidy: diagnosing file:///home/gopath/src/client-go-exercise/dynamicclientdemo/go.mod: err: exit status 1: stderr: go: finding module for package k8s.io/apimachinery/pkg/runtime/schema
+go: finding module for package k8s.io/apimachinery/pkg/runtime
+go: finding module for package k8s.io/client-go/dynamic
+go: finding module for package k8s.io/client-go/tools/clientcmd
+go: finding module for package k8s.io/client-go/util/homedir
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/runtime: cannot find module providing package k8s.io/apimachinery/pkg/runtime: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/runtime/schema: cannot find module providing package k8s.io/apimachinery/pkg/runtime/schema: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/dynamic: cannot find module providing package k8s.io/client-go/dynamic: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/tools/clientcmd: cannot find module providing package k8s.io/client-go/tools/clientcmd: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/util/homedir: cannot find module providing package k8s.io/client-go/util/homedir: module lookup disabled by GOPROXY=off
+
+
+[Error - 6:08:01 PM] 2023/02/13 18:08:01 tidy: diagnosing file:///home/gopath/src/client-go-exercise/dynamicclientdemo/go.mod: err: exit status 1: stderr: go: finding module for package k8s.io/apimachinery/pkg/runtime/schema
+go: finding module for package k8s.io/apimachinery/pkg/runtime
+go: finding module for package k8s.io/client-go/dynamic
+go: finding module for package k8s.io/client-go/tools/clientcmd
+go: finding module for package k8s.io/client-go/util/homedir
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/runtime: cannot find module providing package k8s.io/apimachinery/pkg/runtime: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/runtime/schema: cannot find module providing package k8s.io/apimachinery/pkg/runtime/schema: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/dynamic: cannot find module providing package k8s.io/client-go/dynamic: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/tools/clientcmd: cannot find module providing package k8s.io/client-go/tools/clientcmd: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/util/homedir: cannot find module providing package k8s.io/client-go/util/homedir: module lookup disabled by GOPROXY=off
+
+
+[Info  - 6:08:17 PM] 2023/02/13 18:08:17 background imports cache refresh starting
+
+[Info  - 6:08:17 PM] 2023/02/13 18:08:17 background refresh finished after 7.589098ms
+
+[Info  - 6:08:53 PM] 2023/02/13 18:08:53 go/packages.Load #8
+	snapshot=15
+	directory=file:///home/gopath/src/client-go-exercise/dynamicclientdemo
+	query=[file=/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go]
+	packages=1
+
+[Info  - 6:08:53 PM] 2023/02/13 18:08:53 go/packages.Load #8
+	snapshot=15
+	directory=file:///home/gopath/src/client-go-exercise/dynamicclientdemo
+	package="dynamicclientdemo"
+	files=[/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go]
+
+[Info  - 6:08:53 PM] 2023/02/13 18:08:53 go/packages.Load #8: updating metadata for 1 packages
+
+[Error - 6:08:53 PM] 2023/02/13 18:08:53 tidy: diagnosing file:///home/gopath/src/client-go-exercise/dynamicclientdemo/go.mod: err: exit status 1: stderr: go: finding module for package k8s.io/apimachinery/pkg/runtime
+go: finding module for package k8s.io/apimachinery/pkg/runtime/schema
+go: finding module for package k8s.io/client-go/dynamic
+go: finding module for package k8s.io/client-go/tools/clientcmd
+go: finding module for package k8s.io/client-go/util/homedir
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/runtime: cannot find module providing package k8s.io/apimachinery/pkg/runtime: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/runtime/schema: cannot find module providing package k8s.io/apimachinery/pkg/runtime/schema: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/dynamic: cannot find module providing package k8s.io/client-go/dynamic: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/tools/clientcmd: cannot find module providing package k8s.io/client-go/tools/clientcmd: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/util/homedir: cannot find module providing package k8s.io/client-go/util/homedir: module lookup disabled by GOPROXY=off
+
+
+[Error - 6:08:54 PM] 2023/02/13 18:08:54 tidy: diagnosing file:///home/gopath/src/client-go-exercise/dynamicclientdemo/go.mod: err: exit status 1: stderr: go: finding module for package k8s.io/apimachinery/pkg/apis/meta/v1
+go: finding module for package k8s.io/api/core/v1
+go: finding module for package k8s.io/apimachinery/pkg/runtime
+go: finding module for package k8s.io/apimachinery/pkg/runtime/schema
+go: finding module for package k8s.io/client-go/dynamic
+go: finding module for package k8s.io/client-go/tools/clientcmd
+go: finding module for package k8s.io/client-go/util/homedir
+dynamicclientdemo imports
+	k8s.io/api/core/v1: cannot find module providing package k8s.io/api/core/v1: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/apis/meta/v1: cannot find module providing package k8s.io/apimachinery/pkg/apis/meta/v1: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/runtime: cannot find module providing package k8s.io/apimachinery/pkg/runtime: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/runtime/schema: cannot find module providing package k8s.io/apimachinery/pkg/runtime/schema: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/dynamic: cannot find module providing package k8s.io/client-go/dynamic: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/tools/clientcmd: cannot find module providing package k8s.io/client-go/tools/clientcmd: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/util/homedir: cannot find module providing package k8s.io/client-go/util/homedir: module lookup disabled by GOPROXY=off
+
+
+[Info  - 6:08:54 PM] 2023/02/13 18:08:54 go/packages.Load #9
+	snapshot=18
+	directory=file:///home/gopath/src/client-go-exercise/dynamicclientdemo
+	query=[file=/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go]
+	packages=1
+
+[Info  - 6:08:54 PM] 2023/02/13 18:08:54 go/packages.Load #9
+	snapshot=18
+	directory=file:///home/gopath/src/client-go-exercise/dynamicclientdemo
+	package="dynamicclientdemo"
+	files=[/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go]
+
+[Info  - 6:08:54 PM] 2023/02/13 18:08:54 go/packages.Load #9: updating metadata for 1 packages
+
+[Error - 6:08:55 PM] 2023/02/13 18:08:55 tidy: diagnosing file:///home/gopath/src/client-go-exercise/dynamicclientdemo/go.mod: err: exit status 1: stderr: go: finding module for package k8s.io/apimachinery/pkg/apis/meta/v1
+go: finding module for package k8s.io/api/core/v1
+go: finding module for package k8s.io/apimachinery/pkg/runtime
+go: finding module for package k8s.io/apimachinery/pkg/runtime/schema
+go: finding module for package k8s.io/client-go/dynamic
+go: finding module for package k8s.io/client-go/tools/clientcmd
+go: finding module for package k8s.io/client-go/util/homedir
+dynamicclientdemo imports
+	k8s.io/api/core/v1: cannot find module providing package k8s.io/api/core/v1: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/apis/meta/v1: cannot find module providing package k8s.io/apimachinery/pkg/apis/meta/v1: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/runtime: cannot find module providing package k8s.io/apimachinery/pkg/runtime: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/runtime/schema: cannot find module providing package k8s.io/apimachinery/pkg/runtime/schema: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/dynamic: cannot find module providing package k8s.io/client-go/dynamic: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/tools/clientcmd: cannot find module providing package k8s.io/client-go/tools/clientcmd: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/util/homedir: cannot find module providing package k8s.io/client-go/util/homedir: module lookup disabled by GOPROXY=off
+
+
+[Info  - 6:08:55 PM] 2023/02/13 18:08:55 background imports cache refresh starting
+
+[Info  - 6:08:55 PM] 2023/02/13 18:08:55 background refresh finished after 8.574456ms
+
+[Info  - 6:09:25 PM] 2023/02/13 18:09:25 background imports cache refresh starting
+
+[Info  - 6:09:25 PM] 2023/02/13 18:09:25 background refresh finished after 33.649615ms
+
+[Error - 6:10:12 PM] 2023/02/13 18:10:12 tidy: diagnosing file:///home/gopath/src/client-go-exercise/dynamicclientdemo/go.mod: err: exit status 1: stderr: go: finding module for package k8s.io/apimachinery/pkg/apis/meta/v1
+go: finding module for package k8s.io/api/core/v1
+go: finding module for package k8s.io/apimachinery/pkg/runtime
+go: finding module for package k8s.io/apimachinery/pkg/runtime/schema
+go: finding module for package k8s.io/client-go/dynamic
+go: finding module for package k8s.io/client-go/tools/clientcmd
+go: finding module for package k8s.io/client-go/util/homedir
+dynamicclientdemo imports
+	k8s.io/api/core/v1: cannot find module providing package k8s.io/api/core/v1: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/apis/meta/v1: cannot find module providing package k8s.io/apimachinery/pkg/apis/meta/v1: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/runtime: cannot find module providing package k8s.io/apimachinery/pkg/runtime: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/runtime/schema: cannot find module providing package k8s.io/apimachinery/pkg/runtime/schema: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/dynamic: cannot find module providing package k8s.io/client-go/dynamic: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/tools/clientcmd: cannot find module providing package k8s.io/client-go/tools/clientcmd: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/util/homedir: cannot find module providing package k8s.io/client-go/util/homedir: module lookup disabled by GOPROXY=off
+
+
+[Error - 6:10:12 PM] 2023/02/13 18:10:12 tidy: diagnosing file:///home/gopath/src/client-go-exercise/dynamicclientdemo/go.mod: err: exit status 1: stderr: go: finding module for package k8s.io/apimachinery/pkg/apis/meta/v1
+go: finding module for package k8s.io/api/core/v1
+go: finding module for package k8s.io/apimachinery/pkg/runtime
+go: finding module for package k8s.io/apimachinery/pkg/runtime/schema
+go: finding module for package k8s.io/client-go/dynamic
+go: finding module for package k8s.io/client-go/tools/clientcmd
+go: finding module for package k8s.io/client-go/util/homedir
+dynamicclientdemo imports
+	k8s.io/api/core/v1: cannot find module providing package k8s.io/api/core/v1: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/apis/meta/v1: cannot find module providing package k8s.io/apimachinery/pkg/apis/meta/v1: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/runtime: cannot find module providing package k8s.io/apimachinery/pkg/runtime: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/apimachinery/pkg/runtime/schema: cannot find module providing package k8s.io/apimachinery/pkg/runtime/schema: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/dynamic: cannot find module providing package k8s.io/client-go/dynamic: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/tools/clientcmd: cannot find module providing package k8s.io/client-go/tools/clientcmd: module lookup disabled by GOPROXY=off
+dynamicclientdemo imports
+	k8s.io/client-go/util/homedir: cannot find module providing package k8s.io/client-go/util/homedir: module lookup disabled by GOPROXY=off
+
+
+[Info  - 6:10:41 PM] 2023/02/13 18:10:41 background imports cache refresh starting
+
+[Info  - 6:10:41 PM] 2023/02/13 18:10:41 background refresh finished after 39.313849ms
+
+[Info  - 6:10:56 PM] 2023/02/13 18:10:56 go/packages.Load #10
+	snapshot=21
+	directory=file:///home/gopath/src/client-go-exercise/dynamicclientdemo
+	query=[builtin dynamicclientdemo/...]
+	packages=2
+
+[Info  - 6:10:56 PM] 2023/02/13 18:10:56 go/packages.Load #10: updating metadata for 240 packages
+
+[Info  - 6:11:31 PM] 2023/02/13 18:11:31 background imports cache refresh starting
+
+[Info  - 6:11:31 PM] 2023/02/13 18:11:31 background refresh finished after 81.499377ms
+
+[Info  - 6:12:08 PM] 2023/02/13 18:12:08 background imports cache refresh starting
+
+[Info  - 6:12:08 PM] 2023/02/13 18:12:08 background refresh finished after 69.384275ms
+
+[Error - 6:13:04 PM] 2023/02/13 18:13:04 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:26:131: missing ',' before newline in argument list (and 38 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:13:10 PM] 2023/02/13 18:13:10 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:26:131: missing ',' before newline in argument list (and 38 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Error - 6:13:12 PM] 2023/02/13 18:13:12 imports fixes: AllImportsFixes: /home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:26:131: missing ',' before newline in argument list (and 38 more errors)
+	file="/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go"
+
+[Info  - 6:13:33 PM] 2023/02/13 18:13:33 background imports cache refresh starting
+
+[Info  - 6:13:33 PM] 2023/02/13 18:13:33 background refresh finished after 16.939236ms
+

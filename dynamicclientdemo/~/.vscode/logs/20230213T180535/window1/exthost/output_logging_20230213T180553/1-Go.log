@@ -1,0 +1,63 @@
+Starting linting the current package at /home/gopath/src/client-go-exercise/dynamicclientdemo
+/home/gopath/src/client-go-exercise/dynamicclientdemo>Finished running tool: /home/gopath/bin/staticcheck
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131 missing ',' before newline in argument list (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:12:2 expected operand, found '}' (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:23:2 missing ',' in argument list (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:24:21 missing ',' before newline in composite literal (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:25:3 missing ',' before newline in argument list (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:27:21 missing ',' in argument list (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:29:2 expected operand, found 'if' (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:30:21 missing ',' before newline in composite literal (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:31:3 missing ',' before newline in argument list (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:34:6 missing ',' in argument list (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:43:2 missing ',' in argument list (compile)
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/dynamicclientdemo
+/home/gopath/src/client-go-exercise/dynamicclientdemo>Finished running tool: /home/gopath/bin/staticcheck
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:131 missing ',' before newline in argument list (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:12:2 expected operand, found '}' (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:23:2 missing ',' in argument list (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:24:21 missing ',' before newline in composite literal (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:25:3 missing ',' before newline in argument list (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:27:21 missing ',' in argument list (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:29:2 expected operand, found 'if' (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:30:21 missing ',' before newline in composite literal (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:31:3 missing ',' before newline in argument list (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:34:6 missing ',' in argument list (compile)
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:38:19 missing ',' in argument list (compile)
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/dynamicclientdemo
+/home/gopath/src/client-go-exercise/dynamicclientdemo>Finished running tool: /home/gopath/bin/staticcheck
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:9:2 no required module provides package k8s.io/apimachinery/pkg/runtime; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:10:2 no required module provides package k8s.io/apimachinery/pkg/runtime/schema; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:2 no required module provides package k8s.io/client-go/dynamic; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:12:2 no required module provides package k8s.io/client-go/tools/clientcmd; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:13:2 no required module provides package k8s.io/client-go/util/homedir; to add it:
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/dynamicclientdemo
+/home/gopath/src/client-go-exercise/dynamicclientdemo>Finished running tool: /home/gopath/bin/staticcheck
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:9:2 no required module provides package k8s.io/api/core/v1; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:10:2 no required module provides package k8s.io/apimachinery/pkg/apis/meta/v1; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:2 no required module provides package k8s.io/apimachinery/pkg/runtime; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:12:2 no required module provides package k8s.io/apimachinery/pkg/runtime/schema; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:13:2 no required module provides package k8s.io/client-go/dynamic; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:14:2 no required module provides package k8s.io/client-go/tools/clientcmd; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:15:2 no required module provides package k8s.io/client-go/util/homedir; to add it:
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/dynamicclientdemo
+/home/gopath/src/client-go-exercise/dynamicclientdemo>Finished running tool: /home/gopath/bin/staticcheck
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:9:2 no required module provides package k8s.io/api/core/v1; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:10:2 no required module provides package k8s.io/apimachinery/pkg/apis/meta/v1; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:11:2 no required module provides package k8s.io/apimachinery/pkg/runtime; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:12:2 no required module provides package k8s.io/apimachinery/pkg/runtime/schema; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:13:2 no required module provides package k8s.io/client-go/dynamic; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:14:2 no required module provides package k8s.io/client-go/tools/clientcmd; to add it:
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:15:2 no required module provides package k8s.io/client-go/util/homedir; to add it:
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/dynamicclientdemo
+/home/gopath/src/client-go-exercise/dynamicclientdemo>Finished running tool: /home/gopath/bin/staticcheck
+/home/gopath/src/client-go-exercise/dynamicclientdemo/main.go:26:131 not enough arguments in call to flag.String
+
+Starting linting the current package at /home/gopath/src/client-go-exercise/dynamicclientdemo
+/home/gopath/src/client-go-exercise/dynamicclientdemo>Finished running tool: /home/gopath/bin/staticcheck
+
