@@ -5,6 +5,9 @@
         "folders": [
             {
                 "folderUri": "file:///home/gopath/src/client-go-exercise/dynamicclientdemo"
+            },
+            {
+                "folderUri": "file:///home/gopath/src/client-go-exercise/discoveryclientdemo"
             }
         ],
         "emptyWindows": [
@@ -51,11 +54,21 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/gopath/src/client-go-exercise/discoveryclientdemo",
+                                        "path": "/home/gopath/src/client-go-exercise/discoveryclientdemo",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/gopath/src/client-go-exercise/discoveryclientdemo"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -435,7 +448,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -993,8 +1007,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1587,8 +1600,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/gopath/src/client-go-exercise/dynamicclientdemo",
-            "backupPath": "/home/gopath/src/client-go-exercise/dynamicclientdemo/~/.vscode/Backups/875f452656171d6d02f261ebeac481fa",
+            "folder": "file:///home/gopath/src/client-go-exercise/discoveryclientdemo",
+            "backupPath": "/home/gopath/src/client-go-exercise/dynamicclientdemo/~/.vscode/Backups/7b4f3c87694fd23686dcba01ec9127e4",
             "uiState": {
                 "mode": 0,
                 "x": 0,

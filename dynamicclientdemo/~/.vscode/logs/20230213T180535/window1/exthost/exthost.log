@@ -40,3 +40,25 @@
 	at processMessageQueue (/root/.vscode/extensions/golang.go-0.37.1/dist/goMain.js:4293:13)
 	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.37.1/dist/goMain.js:4279:11)
 	at process.processImmediate (node:internal/timers:466:21)
+2023-02-17 15:13:32.733 [info] Extension host terminating: received terminate message from renderer
+2023-02-17 15:13:32.796 [error] Error: read ECONNRESET
+	at Pipe.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-02-17 15:13:32.843 [info] Extension host with pid 6016 exiting with code 0
+2023-02-17 15:13:36.613 [info] Extension host with pid 9358 started
+2023-02-17 15:13:36.613 [info] Skipping acquiring lock for /home/gopath/src/client-go-exercise/dynamicclientdemo/~/.vscode/User/workspaceStorage/90f82aefe39a2f9e32d9eda6e45b9272.
+2023-02-17 15:13:36.789 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-02-17 15:13:36.790 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-17 15:13:37.113 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-17 15:13:37.113 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-17 15:13:37.452 [info] Eager extensions activated
+2023-02-17 15:13:37.547 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-02-17 15:13:37.548 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-17 15:13:37.548 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-02-17 15:13:37.549 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-17 15:13:51.323 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2023-02-17 15:18:43.216 [error] [golang.go] provider FAILED
+2023-02-17 15:18:43.217 [error] Error: context canceled
+	at handleResponse (/root/.vscode/extensions/golang.go-0.37.1/dist/goMain.js:4470:40)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.37.1/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.37.1/dist/goMain.js:4279:11)
+	at process.processImmediate (node:internal/timers:466:21)

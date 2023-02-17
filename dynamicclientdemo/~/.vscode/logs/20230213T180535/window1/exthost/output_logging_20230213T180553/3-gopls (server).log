@@ -365,3 +365,6 @@ dynamicclientdemo imports
 
 [Info  - 6:13:33 PM] 2023/02/13 18:13:33 background refresh finished after 16.939236ms
 
+[Info  - 3:13:32 PM] 2023/02/17 15:13:32 Shutdown session
+	shutdown_session=1
+

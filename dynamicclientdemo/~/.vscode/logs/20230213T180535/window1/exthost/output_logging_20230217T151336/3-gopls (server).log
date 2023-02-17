@@ -1,0 +1,172 @@
+[Info  - 3:13:52 PM] 2023/02/17 15:13:52 go env for /home/gopath/src/client-go-exercise/discoveryclientdemo
+(root /home/gopath/src/client-go-exercise/discoveryclientdemo)
+(go version go version go1.18.5 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOINSECURE=
+GOPROXY=https://goproxy.io,direct
+GOFLAGS=
+GOROOT=/usr/local/go
+GOCACHE=/root/.cache/go-build
+GOMODCACHE=/home/gopath/pkg/mod
+GOMOD=/dev/null
+GONOPROXY=
+GOPRIVATE=
+GOWORK=
+GO111MODULE=on
+GONOSUMDB=
+GOSUMDB=sum.golang.org
+GOPATH=/home/gopath
+
+
+[Info  - 3:13:52 PM] 2023/02/17 15:13:52 go/packages.Load #1
+	snapshot=0
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	query=[./... builtin]
+	packages=2
+
+[Info  - 3:13:52 PM] 2023/02/17 15:13:52 go/packages.Load #1: updating metadata for 0 packages
+
+[Info  - 3:13:52 PM] 2023/02/17 15:13:52 go/packages.Load #2
+	snapshot=1
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	query=[file=/home/gopath/src/client-go-exercise/discoveryclientdemo/main.go]
+	packages=1
+
+[Info  - 3:13:52 PM] 2023/02/17 15:13:52 go/packages.Load #2
+	snapshot=1
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	package="command-line-arguments"
+	files=[/home/gopath/src/client-go-exercise/discoveryclientdemo/main.go]
+
+[Info  - 3:13:52 PM] 2023/02/17 15:13:52 go/packages.Load #2: updating metadata for 1 packages
+
+[Info  - 3:13:52 PM] 2023/02/17 15:13:52 go/packages.Load #3
+	snapshot=1
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	package="command-line-arguments"
+	files=[/home/gopath/src/client-go-exercise/discoveryclientdemo/main.go]
+
+[Info  - 3:13:52 PM] 2023/02/17 15:13:52 go/packages.Load #3
+	snapshot=1
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	query=[file=/home/gopath/src/client-go-exercise/discoveryclientdemo/main.go]
+	packages=1
+
+[Info  - 3:13:52 PM] 2023/02/17 15:13:52 go/packages.Load #3: updating metadata for 0 packages
+
+[Info  - 3:14:20 PM] 2023/02/17 15:14:20 go/packages.Load #4
+	snapshot=2
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	query=[file=/home/gopath/src/client-go-exercise/discoveryclientdemo/main.go]
+	packages=1
+
+[Info  - 3:14:20 PM] 2023/02/17 15:14:20 go/packages.Load #4
+	snapshot=2
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	package="command-line-arguments"
+	files=[/home/gopath/src/client-go-exercise/discoveryclientdemo/main.go]
+
+[Info  - 3:14:20 PM] 2023/02/17 15:14:20 go/packages.Load #4: updating metadata for 43 packages
+
+[Info  - 3:14:20 PM] 2023/02/17 15:14:20 go/packages.Load #5
+	snapshot=2
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	package="command-line-arguments"
+	files=[/home/gopath/src/client-go-exercise/discoveryclientdemo/main.go]
+
+[Info  - 3:14:20 PM] 2023/02/17 15:14:20 go/packages.Load #5
+	snapshot=2
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	query=[file=/home/gopath/src/client-go-exercise/discoveryclientdemo/main.go]
+	packages=1
+
+[Info  - 3:14:20 PM] 2023/02/17 15:14:20 go/packages.Load #5: updating metadata for 0 packages
+
+[Info  - 3:14:49 PM] 2023/02/17 15:14:49 background imports cache refresh starting
+
+[Info  - 3:14:49 PM] 2023/02/17 15:14:49 background refresh finished after 499.58812ms
+
+[Info  - 3:14:53 PM] 2023/02/17 15:14:53 go/packages.Load #6
+	snapshot=7
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	query=[builtin discoveryclientdemo/...]
+	packages=2
+
+[Info  - 3:14:53 PM] 2023/02/17 15:14:53 go/packages.Load #6: updating metadata for 43 packages
+
+[Error - 3:14:54 PM] 2023/02/17 15:14:54 tidy: diagnosing file:///home/gopath/src/client-go-exercise/discoveryclientdemo/go.mod: err: exit status 1: stderr: go: finding module for package k8s.io/client-go/discovery
+go: finding module for package k8s.io/apimachinery/pkg/runtime/schema
+go: finding module for package k8s.io/client-go/tools/clientcmd
+go: finding module for package k8s.io/client-go/util/homedir
+discoveryclientdemo imports
+	k8s.io/apimachinery/pkg/runtime/schema: cannot find module providing package k8s.io/apimachinery/pkg/runtime/schema: module lookup disabled by GOPROXY=off
+discoveryclientdemo imports
+	k8s.io/client-go/discovery: cannot find module providing package k8s.io/client-go/discovery: module lookup disabled by GOPROXY=off
+discoveryclientdemo imports
+	k8s.io/client-go/tools/clientcmd: cannot find module providing package k8s.io/client-go/tools/clientcmd: module lookup disabled by GOPROXY=off
+discoveryclientdemo imports
+	k8s.io/client-go/util/homedir: cannot find module providing package k8s.io/client-go/util/homedir: module lookup disabled by GOPROXY=off
+
+
+[Info  - 3:17:13 PM] 2023/02/17 15:17:13 go/packages.Load #7
+	snapshot=8
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	query=[builtin discoveryclientdemo/...]
+	packages=2
+
+[Info  - 3:17:13 PM] 2023/02/17 15:17:13 go/packages.Load #7: updating metadata for 43 packages
+
+[Error - 3:17:14 PM] 2023/02/17 15:17:14 tidy: diagnosing file:///home/gopath/src/client-go-exercise/discoveryclientdemo/go.mod: err: exit status 1: stderr: go: finding module for package k8s.io/client-go/tools/clientcmd
+go: finding module for package k8s.io/client-go/discovery
+go: finding module for package k8s.io/client-go/util/homedir
+discoveryclientdemo imports
+	k8s.io/client-go/discovery: cannot find module providing package k8s.io/client-go/discovery: module lookup disabled by GOPROXY=off
+discoveryclientdemo imports
+	k8s.io/client-go/tools/clientcmd: cannot find module providing package k8s.io/client-go/tools/clientcmd: module lookup disabled by GOPROXY=off
+discoveryclientdemo imports
+	k8s.io/client-go/util/homedir: cannot find module providing package k8s.io/client-go/util/homedir: module lookup disabled by GOPROXY=off
+
+
+[Info  - 3:17:30 PM] 2023/02/17 15:17:30 go/packages.Load #8
+	snapshot=9
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	query=[builtin discoveryclientdemo/...]
+	packages=2
+
+[Info  - 3:17:30 PM] 2023/02/17 15:17:30 go/packages.Load #8: updating metadata for 201 packages
+
+[Info  - 3:17:47 PM] 2023/02/17 15:17:47 go/packages.Load #9
+	snapshot=10
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	query=[builtin discoveryclientdemo/...]
+	packages=2
+
+[Info  - 3:17:47 PM] 2023/02/17 15:17:47 go/packages.Load #9: updating metadata for 351 packages
+
+[Error - 3:18:43 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 3:18:44 PM] 2023/02/17 15:18:44 go/packages.Load #10
+	snapshot=17
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	query=[builtin discoveryclientdemo/...]
+	packages=2
+
+[Info  - 3:18:44 PM] 2023/02/17 15:18:44 go/packages.Load #10: updating metadata for 351 packages
+
+[Info  - 3:18:45 PM] 2023/02/17 15:18:45 go/packages.Load #11
+	snapshot=18
+	directory=file:///home/gopath/src/client-go-exercise/discoveryclientdemo
+	query=[builtin discoveryclientdemo/...]
+	packages=2
+
+[Info  - 3:18:45 PM] 2023/02/17 15:18:45 go/packages.Load #11: updating metadata for 351 packages
+
+[Error - 3:18:45 PM] 2023/02/17 15:18:45 DocumentSymbols failed: getting file for DocumentSymbols: cannot parse non-Go file file:///home/gopath/src/client-go-exercise/discoveryclientdemo/go.mod
+	URI=file:///home/gopath/src/client-go-exercise/discoveryclientdemo/go.mod
+
+[Info  - 3:19:13 PM] 2023/02/17 15:19:13 background imports cache refresh starting
+
+[Info  - 3:19:20 PM] 2023/02/17 15:19:20 background refresh finished after 7.412215975s
+

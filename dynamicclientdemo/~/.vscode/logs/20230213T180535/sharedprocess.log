@@ -1,3 +1,5 @@
 2023-02-13 18:05:40.622 [info] Starting worker process with pid 5992 (type: fileWatcher, window: 1).
 2023-02-13 18:05:50.328 [info] Worker process with pid 5992 terminated normally (type: fileWatcher, window: 1).
 2023-02-13 18:05:51.782 [info] Starting worker process with pid 6015 (type: fileWatcher, window: 1).
+2023-02-17 15:13:32.917 [info] Worker process with pid 6015 terminated normally (type: fileWatcher, window: 1).
+2023-02-17 15:13:34.579 [info] Starting worker process with pid 9359 (type: fileWatcher, window: 1).
