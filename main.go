@@ -54,6 +54,9 @@ func main() {
 	case "conflict":
 		conflict := action.Conflict{}
 		actionInterface = &conflict
+	case "controller":
+		controllerDemo := action.ControllerDemo{}
+		actionInterface = &controllerDemo
 	}
 
 	err = actionInterface.DoAction(clientset)
